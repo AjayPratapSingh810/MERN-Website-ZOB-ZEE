@@ -1,0 +1,235 @@
+.register-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.register-container div{
+  padding:10px;
+  margin:2%;
+}
+.register-container .register-form{
+  padding-top:30px;
+  min-width:32%;
+  border-radius: 20px;
+  background-color: darkgrey;
+  box-shadow: 15px 15px 9px grey;
+}
+.register-container .register-form input{
+  width:100%;
+}
+.register-image{
+  width: 80%;
+}
+.register-image-container{
+ text-align: center;
+}
+.register-container .register-form .register-button{
+  text-align: center;
+}
+.register-container .register-form .loginLink{
+  text-align: center;
+  
+}
+.register-container .register-form a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+.navbar{
+  box-shadow: 5px 5px 9px darkgrey;
+}
+.footer{
+  box-shadow: 5px 5px 9px darkgrey;
+}
+
+.form-container form .rows{
+  display:flex;
+  width:100%;
+}
+.form-container form .rows div {
+  width:50%;
+  margin:5%;
+}
+.form-container form .rows div input{
+  border: none;
+  border-bottom: 2px solid darkgray;
+}
+.form-container form .rows div select{
+  border: none;
+  border-bottom: 2px solid darkgray;
+}
+.form-container form .rows textarea{
+  margin:5%;
+  height:100px;
+  border-bottom: 2px solid darkgray;
+}
+.form-container form .form-button{
+  width:50%;
+  margin: auto;
+  background-color: darkgray;
+  color: black;
+}
+
+.job-link-detail{
+  text-align: center;
+  padding:5px;
+  border-radius: 5px;
+  background-color: darkgray;
+  
+}
+.job-link-detail .Link{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.jobDetail-container{
+  margin:0 5px;
+  padding:2% 4%;
+  border-radius: 10px;
+  background-color: rgb(226, 223, 223);
+}
+.jobDetail-container .heading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.jobDetail-container .detail span{
+  display: flex;
+  align-items: center;
+}
+.jobDetail-container .detail span .detail-p{
+  padding-top: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.jobDetail-container .applyButton .Link{
+  color: black;
+  border: none;
+  border-radius: 5px;
+  background-color: darkgray;
+  padding: 10px;
+  text-decoration: none;
+}
+.jobDetail-container .applyButton{
+  margin-top:20px;
+}
+
+.application-form{
+  border:1px solid black;
+  border-radius: 10px;
+  width:30%;
+  margin: auto;
+  padding:1%;
+  text-align: center;
+  background-color: rgb(221, 219, 219);
+}
+.application-form input{
+  width:100%;
+  border: none;
+  border-bottom: 2px solid darkgray;
+}
+.application-form h1{
+  margin-bottom: 30px;
+
+}
+.application-form button{
+  border: none;
+  border-radius: 5px;
+  width:150px;
+  padding:8px;
+  background-color: darkgray;
+}
+
+.application-container{
+  margin:2%;
+  position: relative;
+}
+
+.application-container .job_seeker_card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding:2%;
+  margin-bottom: 4%;
+  background-color: rgb(221, 219, 219);
+  box-shadow: 8px 8px 8px darkgray;
+}
+.application-container .job_seeker_card p{
+  font-weight: 600;
+}
+.application-container .job_seeker_card .btn_area button{
+  border:none;
+  padding:4px;
+  background-color: red;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+.application-container .resume img{
+  width:100px;
+  height:200px;
+}
+
+.resume-modal{
+  width:500px;
+  height:700px;
+  position: absolute;
+  top:0px;
+  left:20%;
+}
+.resume-modal .modal-content .close{
+  text-align: right;
+  font-size: 60px;
+  font-weight: 700;
+  color: red;
+}
+.myJobs-card{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myJobs-card .content{
+  width:60%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myJobs{
+  margin:10px;
+  padding:40px;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+.myJobs .myJobs-container h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.myJobs-card .content input{
+  border:none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.myJobs-card .content textarea{
+  border:none;
+  border-bottom: 1px solid black;
+  height:50px;
+  margin-bottom: 20px;
+}
+.myJobs-card .content select{
+  border:none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.myJobs-card .content .long_field div{
+  margin-bottom: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.myJobs .myJobs-container .button_wrapper button{
+  margin-right: 40px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
